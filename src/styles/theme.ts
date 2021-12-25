@@ -22,6 +22,19 @@ export const theme = extendTheme({
       heading: {
         color: 'gray.700',
       },
+      '.swiper-button-prev, .swiper-button-next': {
+        color: 'yellow.500',
+      },
+      '.swiper-button-disabled': {
+        color: 'yellow.300',
+      },
+      '.swiper-pagination-bullet': {
+        background: 'gray.500',
+        opacity: '1',
+      },
+      '.swiper-pagination-bullet-active': {
+        background: 'yellow.500',
+      },
     },
   },
   fonts: {
